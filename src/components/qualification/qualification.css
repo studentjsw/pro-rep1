@@ -1,0 +1,218 @@
+/* #qualification {
+  padding: 2rem;
+
+}
+
+#qualification h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.qualification__item {
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.qualification__item:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: pointer;
+}
+
+.qualification__details-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: var(--color-primary);
+}
+
+.qualification__item h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.qualification__item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.qualification__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.qualification__content>article {
+  background: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+}
+
+.qualification__content>article:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: pointer;
+}
+
+.qualification__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.qualification__details-icon {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  margin-bottom: 54px;
+}
+
+.qualification__content>article h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.qualification__content>article p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+
+@media screen and (max-width: 768px) {
+  .qualification__content {
+    grid-template-columns: 1fr;
+  }
+} */
+#qualification {
+  padding: 2rem;
+}
+
+#qualification h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+/* Qualification Styles */
+.qualification__item {
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.qualification__item:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: pointer;
+}
+
+.qualification__details-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: var(--color-primary);
+  margin-bottom: 54px;
+}
+
+.qualification__item h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.qualification__item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.qualification__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.qualification__content>article {
+  background: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+}
+
+.qualification__content>article:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: pointer;
+}
+
+.qualification__details {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Certification Styles */
+.certification__item {
+  background: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+}
+
+.certification__item:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: pointer;
+}
+
+.certification__details-icon {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  margin-right: 1rem;
+  margin-bottom: 70px;
+}
+
+.certification__item h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.certification__item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+@media screen and (max-width: 768px) {
+  .qualification__content {
+    grid-template-columns: 1fr;
+  }
+}
